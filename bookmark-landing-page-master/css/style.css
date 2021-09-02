@@ -1,0 +1,28 @@
+.cards{
+    height: 400px;
+}
+.chrome{
+    height: 300px;
+}
+@media (max-width: 992px){
+    .cards{
+        height: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .questions,.pre-footer{
+        width: 100%;
+    }
+}
+@media (max-width: 768px){
+    .contact, .mail{
+        width: 200% !important;
+        margin-left: -50px;
+    }
+}
+footer{
+    background-color: hsl(229, 31%, 21%);
+}
+.nav-link:hover{
+    color:  hsl(0, 94%, 66%) !important;
+}
